@@ -39,6 +39,8 @@ o jei neturi nerodytu nuliu. -->
 
             echo "Trikampis : $a $b $c <br>";
 
+            // tikrinu ar tai trikampis
+
             if ($a < $b + $c && $b < $a + $c && $c < $a + $b ){
 
                 // tikrinu koks trikampis
@@ -63,18 +65,20 @@ o jei neturi nerodytu nuliu. -->
                 $s = sqrt($p * ($p - $a) * ($p - $b) * ($p - $c));
 
                 // patikrinu ar skaicius decimal formato ir rasau 2 sk po kablelio.
+                // galima naudot round($s, 2)
 
-                if ($s < number_format((float)$s, 2, '.', '' ))
+               // if ($s < number_format((float)$s, 2, '.', '' ))
 
-                    echo "Trikampio plotas: " . number_format((float)$s, 2, '.', '' ) . "<br>";
+                   // echo "Trikampio plotas: " . number_format((float)$s, 2, '.', '' ) . "<br>";
 
-                 else
+               //  else
 
-                    echo "Trikampio plotas: $s<br>";
 
+                echo "Trikampio plotas: " . round($s, 2) . "<br>";
             }else {
                 echo "Netrikampis<br>";
             }
+
             echo "------------------------<br>";
         }
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88daacd2-ef90-410b-a210-3de860168219" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pratimai/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pratimai/masyvai/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratimai/trikampiai/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pratimai/trikampiai/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +14,7 @@
     <session id="1816361563">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -36,16 +37,16 @@
         <counts>
           <entry key="html" value="21" />
           <entry key="js" value="3" />
-          <entry key="php" value="3488" />
-          <entry key="txt" value="13" />
+          <entry key="php" value="3518" />
+          <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="21" />
           <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="3488" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="PHP" value="3518" />
+          <entry key="PLAIN_TEXT" value="41" />
         </counts>
       </usages-collector>
     </session>
@@ -55,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pratimai/trikampiai/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="6" lean-forward="true" selection-end-line="88" />
+            <state relative-caret-position="-450">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -100,17 +101,6 @@
               <item name="php" type="b2602c69:ProjectViewProjectNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="pratimai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="pratimai" type="462c0819:PsiDirectoryNode" />
-              <item name="trikampiai" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545257691675</updated>
       <workItem from="1545257693611" duration="24217000" />
-      <workItem from="1545411702859" duration="11619000" />
+      <workItem from="1545411702859" duration="13709000" />
     </task>
     <task id="LOCAL-00001" summary="loop uzduotis">
       <created>1545273481592</created>
@@ -162,15 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545273481592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="trikampiu uzduotis">
+      <created>1545423412306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545423412306</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35836000" />
+    <option name="totallyTimeSpent" value="37926000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -202,7 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="loop uzduotis" />
-    <option name="LAST_COMMIT_MESSAGE" value="loop uzduotis" />
+    <MESSAGE value="trikampiu uzduotis" />
+    <option name="LAST_COMMIT_MESSAGE" value="trikampiu uzduotis" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pratimai/trikampiai/index.html">
@@ -234,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pratimai/trikampiai/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="6" lean-forward="true" selection-end-line="88" />
+        <state relative-caret-position="-450">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
