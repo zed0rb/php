@@ -7,6 +7,7 @@ require_once "selectSingle.php";
 require_once "delete.php";
 require_once "printMenu.php";
 require_once "selectAll.php";
+require_once "writeToFile.php";
 
 while( true ) {
     // Print the menu on console
@@ -16,7 +17,7 @@ while( true ) {
     $choice = trim( fgets(STDIN) );
 
     // Exit application
-    if( $choice == 5 ) {
+    if( $choice == 6 ) {
 
         break;
     }
@@ -126,6 +127,13 @@ while( true ) {
                     echo "\nCompany deleted\n";
                 }
 
+                break;
+            }
+
+        case 5:
+            {
+                writeToFile();
+                echo "File downloaded";
                 break;
             }
 

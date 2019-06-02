@@ -1,4 +1,4 @@
-CREATE DATABASE test;
+CREATE DATABASE test DEFAULT CHARACTER SET utf8 COLLATE utf8_lithuanian_ci;
 
   use test;
 
