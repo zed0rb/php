@@ -24,17 +24,22 @@ while( true ) {
     // Act based on user choice
     switch( $choice ) {
 
+        // inserting company
         case 1:
             {
                 add();
 
                 break;
             }
+
+        // view all companies
         case 2:
             {
                 selectAll();
                 break;
             }
+
+        // select company to edit
         case 3:
             {
 
@@ -53,6 +58,7 @@ while( true ) {
                         break;
                     }
 
+                    // choosing which data to edit
                     switch ($rowNumb) {
                         case 1:
                             {
@@ -61,22 +67,30 @@ while( true ) {
                             }
                         case 2:
                             {
-                                $sql = "UPDATE companies SET lastname = :parameter WHERE id = :id";
+                                $sql = "UPDATE companies SET registration_code = :parameter WHERE id = :id";
                                 break;
                             }
                         case 3:
                             {
+                                while (!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/', $parameter)) {
+                                    echo "Enter valid email:";
+                                    $parameter = trim(fgets(STDIN, 1024));
+                                }
                                 $sql = "UPDATE companies SET email = :parameter WHERE id = :id";
                                 break;
                             }
                         case 4:
                             {
-                                $sql = "UPDATE companies SET age = :parameter WHERE id = :id";
+                                while (!preg_match("/^([0-9\-\(\)\/\+\s]{8,15})*$/", $parameter)) {
+                                    echo "Enter valid phone:";
+                                    $parameter = trim(fgets(STDIN, 1024));
+                                }
+                                $sql = "UPDATE companies SET phone = :parameter WHERE id = :id";
                                 break;
                             }
                         case 5:
                             {
-                                $sql = "UPDATE companies SET location = :parameter WHERE id = :id";
+                                $sql = "UPDATE companies SET comment = :parameter WHERE id = :id";
                                 break;
                             }
                         default:
@@ -94,6 +108,7 @@ while( true ) {
                 break;
             }
 
+        // delete data
         case 4:
             {
                 echo "Which company do you want to delete (type company ID): ";

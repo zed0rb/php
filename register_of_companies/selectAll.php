@@ -1,6 +1,6 @@
 <?php
 
-
+// draw all data in database
 function selectAll(){
     try {
         require "config.php";

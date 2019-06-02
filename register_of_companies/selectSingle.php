@@ -1,7 +1,7 @@
 <?php
 
 
-
+//draw single data by id
 function selectById($id)
 {
     try {
